@@ -1,0 +1,40 @@
+.tab-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:lightgray ;
+    padding: 10px;
+}
+
+.tab-items{
+    display: flex;
+    justify-content: end;
+}
+
+.tab-item{
+    margin-left: 18px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    position: relative;
+    color: white;
+}
+
+.tab-item::before{
+    content: "";
+    display: block;
+    background-color: blue;
+    position:absolute;
+    bottom: -50%;
+    width: 0;
+    height: 2px;
+
+    transition: width 0.3s;
+}
+
+
+.tab-item:hover::before{
+    width:100%;
+}
+
+/* mobile mode */
+

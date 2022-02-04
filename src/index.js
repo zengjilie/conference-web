@@ -4,7 +4,9 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App
+      className='p-20'
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
