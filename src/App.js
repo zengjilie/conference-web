@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Header />
 
-      {/* <div className='content'>
+      <div className='content'>
         <Home />
         <Speakers />
         <Introductions />
@@ -22,7 +22,7 @@ function App() {
         <Topics />
         <ImportantDates />
         <Organizers />
-      </div> */}
+      </div>
 
       <Footer />
     </div>

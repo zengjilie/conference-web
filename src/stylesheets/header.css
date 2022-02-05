@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:lightgray ;
-    padding: 10px;
+    background:gray;
+    height:50px;
+    padding: 10px 20px;
 }
 
 .tab-items{
@@ -12,7 +13,7 @@
 }
 
 .tab-item{
-    margin-left: 18px;
+    margin-left: 25px;
     font-size: 0.8rem;
     cursor: pointer;
     position: relative;
@@ -22,11 +23,11 @@
 .tab-item::before{
     content: "";
     display: block;
-    background-color: blue;
+    background-color:white;
     position:absolute;
     bottom: -50%;
     width: 0;
-    height: 2px;
+    height: 1.5px;
 
     transition: width 0.3s;
 }
@@ -36,5 +37,62 @@
     width:100%;
 }
 
-/* mobile mode */
+.tab-menu-bt{
+    display: none;
+    cursor: pointer;
+}
+/* tablet mode */
+@media only screen and (max-width:800px){
+    .tab-bar{
+        background-color: white;
+    }
+    .tab-items{
+        flex-direction: column;
+        position:absolute; 
+        justify-content: start;
+        top:0;
+        margin-top:70px;
+        margin-bottom:0;
+        background-color: black;
+        height:calc(100% - 60px);
+        right:-70%;
+        transition:right 0.3s ;
+    }
 
+    #menu:checked ~ .tab-items{
+        right:0;
+    }
+
+    .tab-item{
+        margin:0;
+        height:30px;
+        padding:15px;
+        padding-right: 50px;
+        line-height:30px;
+        border-bottom: 1px solid rgb(28, 28, 28);
+        transition: background-color 0.3s;
+        font-size: 1rem;
+    }
+
+    .tab-item:hover{
+        background-color:blue;
+    }
+/* remove bottomline */
+    .tab-item::before{
+        display: none;
+    }
+
+    .tab-menu-bt{
+        display:block;
+    }
+    
+
+}
+
+/* mobile mode */
+@media only screen and (max-width:600px){
+    .tab-menu-bt{
+        display:block;
+    }
+
+}
