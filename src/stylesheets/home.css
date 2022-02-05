@@ -1,0 +1,34 @@
+.home-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-title{
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 700;
+    color:white;
+    margin-top:80px;
+}
+.home-bg{
+    width:100%;
+    height:1000px;
+    background-image:
+        linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.5)),
+        url("../../public/data/images/bg/bg.jpg")
+    ;
+    background-color:rgba(63, 63, 63, 0.7);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    position: fixed;
+    top:0;
+    z-index:-1;
+}
+
+.home-text{
+    color:white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 500;
+}

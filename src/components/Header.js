@@ -21,14 +21,14 @@ function Header() {
                 <img
                     width="110px"
                     alt="logo"
-                    src='/data/images/TheACMWebConference2022.svg'
+                    src='/data/images/logo/TheACMWebConference2022.svg'
                 />
             </a>
 
 
             <input type="checkbox" id="menu" style={{ display: "none" }} />
 
-            <label for="menu" className='tab-menu-bt'>
+            <label htmlFor="menu" className='tab-menu-bt'>
                 <MenuIcon style={{ width: "40px", height: "40px" }} />
             </label>
 
