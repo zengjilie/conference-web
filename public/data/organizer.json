@@ -1,0 +1,59 @@
+{
+    "organizers": [
+        {
+            "name": "Ying Ding",
+            "institution": "THE UNIVERSITY OF TEXAS AT AUSTIN",
+            "link": "https://yingding.ischool.utexas.edu/",
+            "image": "./images/organizers/YingDing.jpg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Benjamin Glicksberg",
+            "institution": "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI",
+            "link": "https://icahn.mssm.edu/profiles/benjamin-s-glicksberg",
+            "image": "./images/organizers/BenjaminGlicksberg.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Justin F. Rousseau",
+            "institution": "THE UNIVERSITY OF TEXAS AT AUSTIN",
+            "link": "https://dellmed.utexas.edu/directory/justin-rousseau",
+            "image": "./images/organizers/JustinRousseau.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Yifan Peng",
+            "institution": "HARVARD UNIVERSITY",
+            "link": "https://vivo.weill.cornell.edu/display/cwid-yip4002",
+            "image": "./images/organizers/YifanPeng.jpg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Guoqiang Zhang",
+            "institution": "THE UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT HOUSTON",
+            "link": "https://med.uth.edu/neurology/faculty/gq-zhang-ms-phd",
+            "image": "./images/organizers/GuoqiangZhang.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "speakers": [
+        {
+            "name": "Marzyeh Ghassemi",
+            "institution": "MIT",
+            "link": "https://healthyml.org/marzyeh/",
+            "image": "/data/images/speakers/MarzyehGhassemi.jpeg",
+            "keynote": {
+                "title": "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!",
+                "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+        },
+        {
+            "name": "Shamim Nemati",
+            "institution": "UC SAN DIEGO",
+            "link": "https://www.nematilab.info/people/shamim/index.html",
+            "image": "/data/images/speakers/Shamim.png",
+            "keynote": {
+                "title": "Artificial Intelligence in Critical Care: Role of Explanation vs. Protocolization",
+                "abstract": "Artificial Intelligence (AI) has shown early promise in early prediction of physiological decompensations in hospitalized patients, which if translated to timely initiation of effective therapies has the potential to save lives. However, several challenges and opportunities, including model interpretability and trust, reduction of false alarms, generalizability and external validity, fairness and inclusiveness, and regulatory oversight must be addressed before successful implementation of such systems in clinical practice. Notably, interpretability and trust in the context of fundamental cultural differences between the statistical (or \"actuarial\") and clinical modes of thinking have been cited as an obstacle to the adoption of such technologies. In the talk, Dr. Nemati will discuss the recent advances in explainable AI in the critical care setting and argue for a renewed focus on the actionability of AI-assisted recommendations in the context of personalized clinical treatment protocols.",
+                "profile": "Dr. Nemati is the Director of Predictive Health Analytics at the UC San Diego (UCSD) Health and an Assistant Professor of Biomedical Informatics at UCSD where he leads an NIH-funded critical care informatics research group. Dr. Nemati obtained his Ph.D. degree in Electrical Engineering and Computer Science from MIT in 2013, followed by two years of fellowship at the Harvard School of Engineering and Applied Sciences (SEAS), where he was a James S. McDonnell Foundation (JSMF) postdoctoral fellow in complex systems. Prior to joining UCSD, he was an assistant professor of Biomedical Informatics at the Emory School of Medicine, and an NIH earlier career development award (K01) recipient focused on the timely prediction of sepsis using advanced machine learning and streaming analytics techniques. He has published in several areas of research, including advanced signal processing and machine learning techniques, computational neuroscience/brain-machine interface, predictive monitoring in intensive care, and nonlinear and nonstationary time-series analysis, resulting in over 100 peer-reviewed publications."
+            }
+        },
+        {
+            "name": "Fei Wang",
+            "institution": "WEILL CORNELL MEDICINE",
+            "link": "https://wcm-wanglab.github.io/index.html",
+            "image": "/data/images/speakers/FeiWang_1.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Pranav Rajpurkar",
+            "institution": "HARVARD UNIVERSITY",
+            "link": "https://rajpurkar.github.io/",
+            "image": "/data/images/speakers/PranavRajpurkar_1.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Marinka Zitnik",
+            "institution": "HARVARD UNIVERSITY",
+            "link": "https://zitniklab.hms.harvard.edu/bio/",
+            "image": "/data/images/speakers/MarinkaZitnik_1.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Benjamin Glicksberg",
+            "institution": "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI",
+            "link": "https://icahn.mssm.edu/profiles/benjamin-s-glicksberg",
+            "image": "/data/images/speakers/BenjaminGlicksberg.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Himabindu Lakkaraju",
+            "institution": "HARVARD UNIVERSITY",
+            "link": "https://himalakkaraju.github.io/",
+            "image": "/data/images/speakers/Hima.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Greg Durrett",
+            "institution": "MIT",
+            "link": "https://www.cs.utexas.edu/~gdurrett/",
+            "image": "/data/images/speakers/Greg_1.png",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        }
+    ]
+}
