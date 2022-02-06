@@ -5,7 +5,6 @@ import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-scroll';
 
 function Header() {
-    const [navbar, setNavbar] = useState(false);
 
     const list = [
         "Home",
@@ -18,6 +17,7 @@ function Header() {
         "Contact",
     ]
 
+    const [navbar, setNavbar] = useState(false);
     function changeNavColor() {
         if (window.scrollY >= 20) {
             setNavbar(true);

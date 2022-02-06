@@ -1,0 +1,21 @@
+.scroll{
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+    height:50px;
+    width: 50px;
+    z-index: 999;
+    color:white;
+    background-color:rgb(97,149,255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.active{
+    opacity: 1;
+}
