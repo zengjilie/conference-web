@@ -1,0 +1,56 @@
+{
+    "agenda": [
+        {
+            "time": "09:00 am - 09:10 am",
+            "event": "Opening"
+        },
+        {
+            "time": "09:10 am - 10:10 am ",
+            "event": "Invited Keynote Speak"
+        },
+        {
+            "time": "10:10 am - 10:30 am",
+            "event": "Break"
+        },
+        {
+            "time": "10:30 am - 11:00 am",
+            "event": "Invited Talk"
+        },
+        {
+            "time": "11:00 am - 12:30 am",
+            "event": "Workshop paper presentation (about 6 presentations)"
+        },
+        {
+            "time": "12:30 am - 01:30 pm",
+            "event": "Lunch"
+        },
+        {
+            "time": "01:30 pm - 02:00 pm",
+            "event": "Invited Talk"
+        },
+        {
+            "time": "02:00 pm - 03:00 pm",
+            "event": "Workshop paper presentation (about 4 presentations)"
+        },
+        {
+            "time": "03:00 pm - 03:20 pm",
+            "event": "Break"
+        },
+        {
+            "time": "03:20 pm - 04:20 pm",
+            "event": "Round-Table Panel Discussion"
+        },
+        {
+            "time": "04:20 pm - 05:20 pm",
+            "event": "Round-Table Panel Discussion"
+        },
+        {
+            "time": "05:20 pm - 05:30 pm",
+            "event": "Concluding Remarks"
+        },
+        {
+            "time": "05:30 pm - 06:30 pm",
+            "event": "Poster Session"
+        }
+    ]
+}

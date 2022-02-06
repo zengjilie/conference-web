@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../stylesheets/home.css';
 
 function Home() {
+  const [bg, setBg] = useState(true);
+
+  function changeBg() {
+    if (window.scrollY >= 1900) {
+      setBg(false);
+    } else {
+      setBg(true);
+    }
+  }
+  window.addEventListener('scroll', changeBg);
+
   return (
     <div className='home-box'>
       <p className='home-title'>
@@ -38,7 +49,7 @@ function Home() {
         </a>
       </div>
 
-      <div className='home-bg' ></div>
+      <div className={bg ? 'home-bg' : 'nothing'}></div>
 
     </div>
   )

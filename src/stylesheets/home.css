@@ -5,19 +5,22 @@
     margin:0 20px;
     text-align: center;
     overflow: hidden;
+    height:100vh;
 }
+
 .home-title{
     font-size: 3.5rem;
     text-align: center;
     font-weight: 700;
     color:white;
-    margin-top:100px;
+    margin-top:10%;
     margin-bottom: 10px;
     text-transform: capitalize;
 }
+
 .home-bg{
     width:100vw;
-    height:1000px;
+    height:100vh;
     background-image:
         linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
         url("../../public/data/images/bg/bg.jpg")
@@ -26,7 +29,7 @@
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
-    position: fixed;
+    position:fixed;
     top:0;
     z-index:-1;
 }
