@@ -67,11 +67,11 @@
 }
 
 .org-card-box:hover .org-name{
-    color:rgb(97,149,255);
+    color:white;
 }
 
 .org-card-box:hover .org-insti{
-    color:white;
+    color:rgb(97,149,255);
 }
 .overlay{
     width:90%;

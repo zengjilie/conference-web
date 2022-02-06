@@ -66,11 +66,11 @@
 }
 
 .speaker-card-box:hover .speaker-name{
-    color:rgb(97,149,255);
+    color:white;
 }
 
 .speaker-card-box:hover .speaker-insti{
-    color:white;
+    color:rgb(97,149,255);
 }
 .overlay{
     width:90%;
