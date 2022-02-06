@@ -19,13 +19,14 @@
     align-items: center;
     height:100vh;
     text-align: center;
+    /* transform:translateY(20%); */
+    padding-top:25vh;
 }
 .home-title{
     font-size: 3.5rem;
     text-align: center;
     font-weight: 700;
     color:white;
-    margin-top:16%;
     margin-bottom: 10px;
     text-transform: capitalize;
 }
@@ -72,6 +73,8 @@
     transition:background-color 0.3s;
 }
 .home-attend-bt{
+    font-weight:700;
+    font-size: 1rem;
     color:black;
     background-color:white;
 }
@@ -80,9 +83,11 @@
 }
 
 .home-submit-bt{
+    font-weight:700;
+    font-size: 1rem;
     color:white;
     background-color:rgb(97,149,255);
 }
 .home-submit-bt:hover{
-    background-color:rgb(101, 143, 228);
+    background-color:rgb(74, 114, 193);
 }

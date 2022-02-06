@@ -1,4 +1,4 @@
-.speaker-card-box{
+.org-card-box{
     width:90%;
     height:400px;
     background-color: white;
@@ -12,7 +12,7 @@
     transition:background-color 0.3s;
 }
 
-.speaker-detail{
+.org-detail{
     width:40px;
     height:40px;
     position:absolute;
@@ -27,11 +27,12 @@
     transition:opacity 0.3s;
     cursor: pointer;
 }
-.speaker-detail > svg{
+
+.org-detail > svg{
     transform:rotate(-45deg);
 }
 
-.speaker-img{
+.org-img{
     margin-top:30px;
     margin-bottom:20px;
     width:90%;
@@ -39,37 +40,37 @@
     object-fit: contain;
 }
 
-.speaker-info{
+.org-info{
     max-width:90%;
 }
 
-.speaker-name{
+.org-name{
     font-weight: 700;
     text-align: center;
     margin-bottom: 10px;
     transition:color 0.3s;
 }
 
-.speaker-insti{
+.org-insti{
     text-align: center;
     font-size: 0.8rem;
     transition:color 0.2s;
     margin-bottom: 20px;
 }
 
-.speaker-card-box:hover{
+.org-card-box:hover{
     background-color: black;
 }
 
-.speaker-card-box:hover .speaker-detail{
+.org-card-box:hover .org-detail{
     opacity:1;
 }
 
-.speaker-card-box:hover .speaker-name{
+.org-card-box:hover .org-name{
     color:rgb(97,149,255);
 }
 
-.speaker-card-box:hover .speaker-insti{
+.org-card-box:hover .org-insti{
     color:white;
 }
 .overlay{
@@ -80,7 +81,7 @@
     opacity:0;
     transition:opacity 0.3s;
 }
-.speaker-card-box:hover .overlay{
+.org-card-box:hover .overlay{
     background-color: black;
     opacity:0.4;
 }

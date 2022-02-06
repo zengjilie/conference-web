@@ -11,7 +11,7 @@ import Speakers from './sections/Speakers';
 import Topics from './sections/Topics';
 
 function App() {
-  
+
   return (
     <div className="App">
       <Header />
@@ -22,7 +22,7 @@ function App() {
         <Agenda />
         <Topics />
         <ImportantDates />
-        <Organizers />
+        {/* <Organizers /> added to impt */}
       </div>
 
       <Footer />

@@ -1,6 +1,6 @@
 .impt-box{
     padding:80px 20px;
-    height:100vh;
+    min-height:100vh;
     background-image:
         linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
         url("../../public/data/images/bg/bg2.jpg")
@@ -44,8 +44,55 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:10px;
 }
 
 .impt-box2{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:300px;
+    text-align: center;
+}
+.impt-logo{
+    color:rgb(97,149,255);
+}
+
+.impt-logo svg{
+    width:50px;
+    height:50px;
+}
+
+.impt-date{
+    font-size: 2rem;
+    font-weight:700;
+    color:white;
+}
+
+.impt-event{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+}
+
+.impt-bt{
+    margin-top: 50px;
+    border: none;
+    width: 100px;
+    height: 44px;
+    border-radius: 0.2rem;
+    line-height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight:700;
+    font-size: 1rem;
+    background-color: rgb(97,149,255);
+}
+
+.impt-bt:hover{
+    background-color:rgb(74, 114, 193);
 }

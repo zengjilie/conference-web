@@ -9,7 +9,6 @@ function Topics() {
       .then(res => res.json())
       .then(data => setTopicsData(data.topics));
   }, [])
-  console.log(topicsData);
   return (
 
     <div className='topics-box'>
