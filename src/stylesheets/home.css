@@ -92,4 +92,7 @@
     .home-title{
         font-size: 3rem;
     }
+    .home-wrapper{
+        padding-top:10vh;
+    }
 }
