@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../stylesheets/agenda.css';
-import { useWindowHeight } from '@react-hook/window-size';
 
 function Agenda() {
   //Fetch agenda data
@@ -10,21 +9,6 @@ function Agenda() {
       .then(res => res.json())
       .then(data => setAgendaData(data.agenda));
   }, [])
-
-  //Get window height
-  const wHeight = useWindowHeight();
-
-  //Track scroll height -> change bg-img
-  const [bg, setBg] = useState(false);
-
-  function changeBg() {
-    if (window.scrollY >= wHeight + (8 / 4) * 410 + 250) {
-      setBg(true);
-    } else {
-      setBg(false);
-    }
-  }
-  window.addEventListener('scroll', changeBg);
 
   return (
     <div className='agenda-box'>
@@ -61,8 +45,6 @@ function Agenda() {
         </p>
       </div>
 
-      {/* background image */}
-      <div className={bg ? 'agenda-bg' : 'nothing'}></div>
     </div >
   )
 }

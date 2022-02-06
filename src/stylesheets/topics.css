@@ -1,10 +1,9 @@
 .topics-box{
     background-color: white;
-    width: 100%;
     display: flex;
     flex-direction:column ;
     align-items: center;
-    padding:80px 0;
+    padding:80px 20px;
 }
 
 .topics-title{
@@ -33,11 +32,11 @@
     max-width:1000px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
+    column-gap:40px;
     row-gap: 20px;
     margin-left:auto;
     margin-right:auto;
-    padding:0 20px;
+    padding-left: 0;
 }
 
 .topics-content{

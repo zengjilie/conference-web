@@ -17,7 +17,7 @@ function App() {
       <Header />
       <div className='content'>
         <Home />
-        <Speakers />
+        {/* <Speakers /> added to home*/}
         <Introductions />
         <Agenda />
         <Topics />
