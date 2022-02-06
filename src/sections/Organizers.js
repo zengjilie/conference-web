@@ -17,7 +17,7 @@ function Organizers() {
 
       <p className='org-title'>Organizers</p>
 
-      <div className='org-wrapper'>
+      <div className='org-wrapper' id='Organizers'>
         {organizerData?.organizers.map((organizer, index) =>
           <OrganizerCard
             key={index}

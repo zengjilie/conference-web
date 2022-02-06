@@ -3,7 +3,7 @@ import '../stylesheets/footer.css'
 
 function Footer() {
   return (
-    <div className='footer-box'>
+    <div className='footer-box' id='Contact'>
       <div className='footer-wrapper'>
         < a
           className='footer-logo'
@@ -35,9 +35,9 @@ function Footer() {
           <p>ying.ding@austin.utexas.edu</p>
         </a>
 
-        <p className='footer-attribute'>Copyright © WWW 2022. All rights reserved 
-         Website Organized by: Tianhao Li (The University of Texas at Austin) | 
-         Built by: Jilie Zeng (The University of Texas at Austin)</p>
+        <p className='footer-attribute'>Copyright © WWW 2022. All rights reserved
+          Website Organized by: Tianhao Li (The University of Texas at Austin) |
+          Built by: Jilie Zeng (The University of Texas at Austin)</p>
       </div>
     </div>
   )

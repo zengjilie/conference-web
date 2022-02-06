@@ -3,7 +3,7 @@ import '../stylesheets/introducation.css'
 
 function Introductions() {
   return (
-    <div className='intro-box'>
+    <div className='intro-box' id='Introduction'>
       <div className='intro-wrapper'>
         <p className='intro-title'>Introduction</p>
         <p className='intro-text'>

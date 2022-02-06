@@ -12,7 +12,7 @@ function Speakers() {
   }, []);
 
   return (
-    <div className='speakers-box'>
+    <div className='speakers-box' id='Speakers & Panelists'>
 
       <p className='speakers-title'>Confirmed Speakers and Panelists</p>
 

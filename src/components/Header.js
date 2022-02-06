@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../stylesheets/header.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import { Link } from 'react-scroll';
 
 function Header() {
     const [navbar, setNavbar] = useState(false);
@@ -53,11 +54,21 @@ function Header() {
 
                 <ul className='nav-items'>
                     {list.map((item, index) =>
-                        <li
-                            className='nav-item'
-                            key={index}>
-                            {item}
-                        </li>
+                        <Link
+                            to={item}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}
+                            className="text-lg hover:text-white cursor-pointer"
+                            key={index}
+                        >
+                            <li
+                                className='nav-item'
+                            >
+                                {item}
+
+                            </li>
+                        </Link>
                     )}
                 </ul>
             </div>

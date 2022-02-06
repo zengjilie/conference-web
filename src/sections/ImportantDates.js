@@ -8,7 +8,7 @@ import Organizers from './Organizers';
 
 function ImportantDates() {
   return (
-    <div className='impt-box'>
+    <div className='impt-box' id='Important Dates'>
       <p className='impt-title'>Important Dates</p>
 
       <div className='impt-wrapper'>

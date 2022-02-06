@@ -5,7 +5,7 @@ function Home() {
 
   return (
     <div className='home-box'>
-      <div className='home-wrapper'>
+      <div className='home-wrapper' id='Home'>
         <p className='home-title'>
           International Workshop<br />
           on AI in Health:<br />

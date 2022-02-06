@@ -11,7 +11,7 @@ function Topics() {
   }, [])
   return (
 
-    <div className='topics-box'>
+    <div className='topics-box' id='Topics'>
       <p className='topics-title'>Topics (Not Limit To)</p>
       <dir className='topics-wrapper'>
         {topicsData?.map((tp, index) => {
