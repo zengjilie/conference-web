@@ -6,6 +6,7 @@
     left:0;
     background-color:rgba(0,0,0,0.7);
     z-index:3;
+    animation:home-loader 0.2s ;
 }
 
 .inactive{
@@ -101,4 +102,15 @@
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     color:rgb(97,149,255);
+}
+
+@keyframes keynote-loader{
+    0%{
+        opacity: 0;
+
+    }
+
+    100%{
+        opacity:1;
+    }
 }
