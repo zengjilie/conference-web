@@ -34,24 +34,6 @@
     text-transform: capitalize;
 }
 
-/* .home-bg{
-    width:100vw;
-    height:100vh;
-    background-image:
-        linear-gradient(to bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-        url("../../public/data/images/bg/bg.jpg")
-    ;
-    background-color:rgba(63, 63, 63, 0.7);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:cover;
-    background-attachment: fixed;
-    position:fixed;
-    top:0;
-    z-index:-1;
-} */
-
-
 .home-text{
     color:rgb(106, 155, 255);
     font-size: 1rem;
@@ -102,5 +84,12 @@
 
     100%{
         opacity:1;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .home-title{
+        font-size: 3rem;
     }
 }

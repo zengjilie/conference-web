@@ -13,12 +13,24 @@ function SpeakerCard({ name, institution, image, link, keynote }) {
     return (
         <div className='speaker-card-box'>
 
-            <img
-                className='speaker-img'
-                src={image}
-                alt=""
-            />
-
+            <div className='speaker-img' style={{
+                width: "100%",
+                marginTop: "30px",
+                height: "250px",
+                backgroundPosition: "center",
+                backgroundImage: `url(${image})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                position:"relative"
+            }}>
+                <div className='speaker-overlay'></div>
+                <div
+                    className='speaker-detail'
+                    onClick={openKeynote}
+                >
+                    <ArrowForwardIcon />
+                </div>
+            </div>
             <div className='speaker-info'>
                 <p className='speaker-name'>
                     {name}
@@ -28,14 +40,8 @@ function SpeakerCard({ name, institution, image, link, keynote }) {
                 </p>
             </div>
 
-            <div className='overlay'></div>
+            {/* <div className='overlay'></div> */}
 
-            <div
-                className='speaker-detail'
-                onClick={openKeynote}
-            >
-                <ArrowForwardIcon />
-            </div>
 
             <KeynoteCard isOpen={isOpen} name={name} keynote={keynote} link={link} openKeynote={openKeynote} />
         </div>

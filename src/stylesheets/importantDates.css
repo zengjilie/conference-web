@@ -46,7 +46,7 @@
     margin-right: auto;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap:10px;
+    gap:10px;
 }
 
 .impt-box2{
@@ -95,4 +95,10 @@
 
 .impt-bt:hover{
     background-color:rgb(74, 114, 193);
+}
+
+@media only screen and (max-width:800px){
+    .impt-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
 }

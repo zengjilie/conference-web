@@ -1,5 +1,5 @@
 .speaker-card-box{
-    width:90%;
+    width:80%;
     height:400px;
     background-color: white;
     margin-left:auto;
@@ -10,6 +10,7 @@
     align-items: center;
     position: relative;
     transition:background-color 0.3s;
+    padding:0 10px;
 }
 
 .speaker-detail{
@@ -18,25 +19,20 @@
     position:absolute;
     background-color: rgb(97,149,255);
     color:white;
-    top:30px;
-    right:12px;
+    top:0;
+    /* right:12px; */
+    right:0;
     display: flex;
     align-items: center;
     justify-content: center;
     opacity:0;
     transition:opacity 0.3s;
+    z-index:2;
     cursor: pointer;
 }
+
 .speaker-detail > svg{
     transform:rotate(-45deg);
-}
-
-.speaker-img{
-    margin-top:30px;
-    margin-bottom:20px;
-    width:90%;
-    /* height:280px; */
-    object-fit: contain;
 }
 
 .speaker-info{
@@ -72,15 +68,22 @@
 .speaker-card-box:hover .speaker-insti{
     color:rgb(97,149,255);
 }
-.overlay{
-    width:90%;
-    height:68%;
-    position:absolute;
-    top:30px;
+.speaker-overlay{
+    width:100%;
+    height:100%;
     opacity:0;
     transition:opacity 0.3s;
+    position:absolute;
+    z-index:1;
 }
-.speaker-card-box:hover .overlay{
+.speaker-card-box:hover .speaker-overlay{
     background-color: black;
     opacity:0.4;
 }
+
+
+/* @media only screen and (max-width:600px){
+    .overlay{
+        height:0%;
+    }
+} */

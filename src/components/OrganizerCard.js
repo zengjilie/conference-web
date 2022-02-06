@@ -6,11 +6,26 @@ function OrganizerCard({ name, institution, image, link }) {
 
     <div className='org-card-box'>
 
-      <img
-        className='org-img'
-        src={image}
-        alt=""
-      />
+
+      <div className='speaker-img' style={{
+        width: "100%",
+        marginTop: "30px",
+        height: "250px",
+        backgroundPosition: "center",
+        backgroundImage: `url(${image})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        position: "relative"
+      }}>
+        <div className='org-overlay'></div>
+        <a href={link}>
+          <div
+            className='org-detail'
+          >
+            <ArrowForwardIcon />
+          </div>
+        </a>
+      </div>
 
       <div className='org-info'>
         <p className='org-name'>
@@ -20,16 +35,6 @@ function OrganizerCard({ name, institution, image, link }) {
           {institution}
         </p>
       </div>
-
-      <div className='overlay'></div>
-
-      <a href={link}>
-        <div
-          className='org-detail'
-        >
-          <ArrowForwardIcon />
-        </div>
-      </a>
 
     </div>
   )
