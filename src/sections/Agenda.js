@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import '../stylesheets/agenda.css';
+import agendaData from '../data/agenda.json';
 
 function Agenda() {
   //Fetch agenda data
-  const [agendaData, setAgendaData] = useState(null);
-  useEffect(() => {
-    fetch('/data/agenda.json')
-      .then(res => res.json())
-      .then(data => setAgendaData(data.agenda));
-  }, [])
+  // const [agendaData, setAgendaData] = useState(null);
+  // useEffect(() => {
+  //   fetch('./data/agenda.json')
+  //     .then(res => res.json())
+  //     .then(data => setAgendaData(data.agenda));
+  // }, [])
 
   return (
     <div className='agenda-box' id='Agenda'>
@@ -21,7 +22,7 @@ function Agenda() {
       </p>
 
       <div className='agenda-wrapper'>
-        {agendaData?.map((item, index) => {
+        {agendaData?.agenda.map((item, index) => {
           return (
             <div className='agenda-info' key={index}>
               <p className='agenda-time'>{item.time}</p>

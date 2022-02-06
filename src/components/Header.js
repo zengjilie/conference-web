@@ -37,7 +37,7 @@ function Header() {
                     <img
                         width="110px"
                         alt="logo"
-                        src='/data/images/logo/logo-white.svg'
+                        src='./data/images/logo/logo-white.svg'
                     />
                 </a >
 

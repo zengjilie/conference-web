@@ -12,7 +12,7 @@ function Footer() {
           <img
             width="120px"
             alt="logo"
-            src='/data/images/logo/logo-white.svg'
+            src='./data/images/logo/logo-white.svg'
           />
         </a >
 

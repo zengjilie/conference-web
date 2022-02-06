@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import '../stylesheets/organizers.css'
-import OrganizerCard  from '../components/OrganizerCard';
+import OrganizerCard from '../components/OrganizerCard';
+import organizerData from '../data/organizer.json';
 
 function Organizers() {
-  const [organizerData, setOrganizerData] = useState(null);
+  // const [organizerData, setOrganizerData] = useState(null);
 
-  useEffect(() => {
-    fetch("/data/organizer.json")
-      .then(res => res.json())
-      .then(data => setOrganizerData(data))
-  }, []);
+  // useEffect(() => {
+  //   fetch("./data/organizer.json")
+  //     .then(res => res.json())
+  //     .then(data => setOrganizerData(data))
+  // }, []);
 
-  console.log(organizerData);
   return (
     <div className='org-box'>
 

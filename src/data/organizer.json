@@ -4,7 +4,7 @@
             "name": "Ying Ding",
             "institution": "THE UNIVERSITY OF TEXAS AT AUSTIN",
             "link": "https://yingding.ischool.utexas.edu/",
-            "image": "/data/images/organizers/YingDing.jpg",
+            "image": "./data/images/organizers/YingDing.jpg",
             "keynote": {
                 "title": "",
                 "abstract": "",
@@ -15,7 +15,7 @@
             "name": "Benjamin Glicksberg",
             "institution": "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI",
             "link": "https://icahn.mssm.edu/profiles/benjamin-s-glicksberg",
-            "image": "/data/images/organizers/BenjaminGlicksberg.jpeg",
+            "image": "./data/images/organizers/BenjaminGlicksberg.jpeg",
             "keynote": {
                 "title": "",
                 "abstract": "",
@@ -26,7 +26,7 @@
             "name": "Justin F. Rousseau",
             "institution": "THE UNIVERSITY OF TEXAS AT AUSTIN",
             "link": "https://dellmed.utexas.edu/directory/justin-rousseau",
-            "image": "/data/images/organizers/JustinRousseau.jpeg",
+            "image": "./data/images/organizers/JustinRousseau.jpeg",
             "keynote": {
                 "title": "",
                 "abstract": "",
@@ -37,7 +37,7 @@
             "name": "Yifan Peng",
             "institution": "HARVARD UNIVERSITY",
             "link": "https://vivo.weill.cornell.edu/display/cwid-yip4002",
-            "image": "/data/images/organizers/YifanPeng.jpg",
+            "image": "./data/images/organizers/YifanPeng.jpg",
             "keynote": {
                 "title": "",
                 "abstract": "",
@@ -48,7 +48,7 @@
             "name": "Guoqiang Zhang",
             "institution": "THE UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT HOUSTON",
             "link": "https://med.uth.edu/neurology/faculty/gq-zhang-ms-phd",
-            "image": "/data/images/organizers/GuoqiangZhang.jpeg",
+            "image": "./data/images/organizers/GuoqiangZhang.jpeg",
             "keynote": {
                 "title": "",
                 "abstract": "",
@@ -59,7 +59,7 @@
             "name": "Pranav Rajpurkar",
             "institution": "HARVARD MEDICAL SCHOOL",
             "link": "https://rajpurkar.github.io/",
-            "image": "/data/images/organizers/PranavRajpurkar_1.jpeg",
+            "image": "./data/images/organizers/PranavRajpurkar_1.jpeg",
             "keynote": {
                 "title": "",
                 "abstract": "",
