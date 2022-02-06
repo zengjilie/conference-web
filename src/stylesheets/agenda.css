@@ -6,7 +6,8 @@
     text-align: center;
     overflow: hidden;
     min-height:100vh;
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .agenda-title{
@@ -18,6 +19,7 @@
     position: relative; 
     color:white;
 }
+
 .agenda-title::before{
     content: "";
     display: block;
@@ -134,7 +136,6 @@
 .submission-link{
     color:white;
     text-align: left;
-    margin-bottom: 40px;
     font-family:'Open Sans','sans-serifs';
 }
 .submission-link a{

@@ -17,11 +17,9 @@ function Topics() {
       <dir className='topics-wrapper'>
         {topicsData?.map((tp, index) => {
           return (
-            <div key={index}>
-              <p>
+              <p className='topics-content' key={index}>
                 {tp}
               </p>
-            </div>
           )
         })}
       </dir>
