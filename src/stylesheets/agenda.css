@@ -5,7 +5,7 @@
     margin:0 20px;
     text-align: center;
     overflow: hidden;
-    height:100vh;
+    min-height:100vh;
     margin-top: 50px;
 }
 
@@ -43,10 +43,17 @@
 .agenda-info{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 5px 0;
-    border-bottom: 2px solid rgba(46, 46, 46,0.4);
+    padding: 5px ;
+    transition:background-color 0.3s , border-color 0.3s;
 }
 
+.agenda-info:hover{
+    background-color:rgba(138, 177, 255, 0.372);
+}
+
+.agenda-info:hover .agenda-time {
+    color:white;
+}
 .agenda-time{
     margin-right: auto;
     color:rgb(138, 177, 255);
@@ -73,4 +80,64 @@
     position: fixed;
     top:0;
     z-index:-1;
+}
+
+.submission-wrapper{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.submission-title{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top:80px;
+    margin-bottom: 60px;
+    position: relative; 
+    color:white;
+}
+
+.submission-title::before{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 30px;
+    background-color: rgb(97,149,255);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-15px);
+}
+
+.submission-intro{
+    color:rgb(97,149,255);
+    text-align: left; 
+    font-family:'Open Sans','sans-serifs';
+    margin-bottom: 40px;
+}
+
+.submission-detial{
+    color:white;
+    text-align: left;
+    margin-bottom: 40px;
+    font-family:'Open Sans','sans-serifs';
+}
+
+.submission-detial a{
+    font-weight: 500;
+    color:rgb(97,149,255);
+}
+
+.submission-link{
+    color:white;
+    text-align: left;
+    margin-bottom: 40px;
+    font-family:'Open Sans','sans-serifs';
+}
+.submission-link a{
+    font-weight: 500;
+    color:rgb(97,149,255);
 }

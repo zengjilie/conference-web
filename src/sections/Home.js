@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useWindowHeight } from '@react-hook/window-size';
 import '../stylesheets/home.css';
 
 function Home() {
+
+  //Get window height
+  const wHeight = useWindowHeight();
+
+  //Get scroll height -> change bg-img
   const [bg, setBg] = useState(true);
 
   function changeBg() {
-    if (window.scrollY >= 1900) {
+    if (window.scrollY >= wHeight + (8 / 4) * 410 + 250) {
       setBg(false);
     } else {
       setBg(true);

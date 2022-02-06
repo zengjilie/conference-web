@@ -34,16 +34,13 @@
     z-index:-1;
 }
 
+
 .home-text{
     color:rgb(106, 155, 255);
     font-size: 1rem;
     margin-top: 10px;
     font-weight: 500;
     transition:color 0.3s;
-}
-
-.home-text:hover{
-    color:rgb(97,149,254);
 }
 
 .home-bts{
