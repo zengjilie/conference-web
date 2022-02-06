@@ -66,15 +66,15 @@
     color:white;
 }
 .agenda-time{
-    margin-right: auto;
     color:rgb(138, 177, 255);
     font-family:'Open Sans','san-serifs';
+    text-align: left;
 }
 
 .agenda-event{
-    margin-right:auto;
     color:white;
     font-family:'Open Sans','san-serifs';
+    text-align: left;
 }
 
 
