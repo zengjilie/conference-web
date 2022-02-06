@@ -3,7 +3,6 @@ import '../stylesheets/keynote-card.css';
 import CloseIcon from '@mui/icons-material/Close';
 
 function KeynoteCard({ isOpen, name, keynote, link, openKeynote }) {
-    console.log(isOpen);
     return (
         <div
             className={isOpen ? 'keynote-box' : 'inactive'}>

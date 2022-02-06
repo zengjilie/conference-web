@@ -5,7 +5,6 @@ import KeynoteCard from './KeynoteCard';
 
 function SpeakerCard({ name, institution, image, link, keynote }) {
     const [isOpen, setIsOpen] = useState(false);
-    // const [isOpen, setIsOpen] = useState(true);
 
     const openKeynote = () => {
         setIsOpen(!isOpen);
