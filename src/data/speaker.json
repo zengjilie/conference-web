@@ -87,6 +87,28 @@
                 "abstract": "",
                 "profile": ""
             }
+        },
+        {
+            "name": "Andrew Beam",
+            "institution": "HARVARD UNIVERSITY",
+            "link": "https://www.hsph.harvard.edu/andrew-beam/",
+            "image": "./data/images/speakers/AndrewBeam.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Faisal Mahmood",
+            "institution": "HARVARD UNIVERSITY",
+            "link": "https://faisal.ai/",
+            "image": "./data/images/speakers/FaisalMahmood.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
         }
     ]
 }
