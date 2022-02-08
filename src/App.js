@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
@@ -12,8 +12,15 @@ import Topics from './sections/Topics';
 import { animateScroll as scroll } from 'react-scroll';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import './App.css';
-
+import ReactGA from 'react-ga';
 function App() {
+  //google analytics
+  useEffect(()=>{
+    ReactGA.initialize('G-V1YV06J2XB');
+
+    ReactGA.pageview('/');
+  },[])
+
   const [show, setShow] = useState(false);
   function changeNavColor() {
     if (window.scrollY >= 1000) {
