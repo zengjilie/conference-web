@@ -34,6 +34,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     color:rgb(97,149,255);
+    text-align: center;
 }
 
 .keynote-bts{
@@ -112,5 +113,27 @@
 
     100%{
         opacity:1;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .keynote-content{
+        width:70%;
+        padding:20px;
+    }
+
+    .keynote-header{
+        font-size: 1.2rem;
+    }
+
+    .keynote-title{
+        font-size: 1rem;
+    }
+    .keynote-abstract{
+        font-size: 0.9rem;
+    }
+    .keynote-profile{
+        font-size: 0.9rem;
     }
 }
