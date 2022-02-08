@@ -109,6 +109,17 @@
                 "abstract": "",
                 "profile": ""
             }
+        },
+        {
+            "name": "Prithwish Chakraborty",
+            "institution": "IBM Research",
+            "link": "https://prithwi.github.io/",
+            "image": "./data/images/speakers/PrithwishChakraborty.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
         }
     ]
 }
