@@ -79,7 +79,7 @@
         },
         {
             "name": "Greg Durrett",
-            "institution": "MIT",
+            "institution": "UT Austin",
             "link": "https://www.cs.utexas.edu/~gdurrett/",
             "image": "./data/images/speakers/Greg_1.png",
             "keynote": {
@@ -115,6 +115,17 @@
             "institution": "IBM Research",
             "link": "https://prithwi.github.io/",
             "image": "./data/images/speakers/PrithwishChakraborty.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Adriel Saporta",
+            "institution": "Health AI at Apple",
+            "link": "http://www.adrielsaporta.com/",
+            "image": "./data/images/speakers/AdrielSaporta.jpeg",
             "keynote": {
                 "title": "",
                 "abstract": "",
