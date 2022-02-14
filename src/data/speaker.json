@@ -131,6 +131,17 @@
                 "abstract": "",
                 "profile": ""
             }
+        },
+        {
+            "name": "Eyal Klang",
+            "institution": "Sheba Medical Center",
+            "link": "https://talpiot.sheba.co.il/88794",
+            "image": "./data/images/speakers/EyalKlang.jpg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
         }
     ]
 }

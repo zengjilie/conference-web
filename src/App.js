@@ -16,7 +16,7 @@ import ReactGA from 'react-ga';
 function App() {
   //google analytics
   useEffect(()=>{
-    ReactGA.initialize('G-V1YV06J2XB');
+    ReactGA.initialize('UA-184832401-1');
 
     ReactGA.pageview('/');
   },[])
