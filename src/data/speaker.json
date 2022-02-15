@@ -142,6 +142,17 @@
                 "abstract": "",
                 "profile": ""
             }
+        },
+        {
+            "name": "Mingchen Gao",
+            "institution": "University at Buffalo",
+            "link": "https://cse.buffalo.edu/~mgao8/",
+            "image": "./data/images/speakers/MingchenGao.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
         }
     ]
 }
