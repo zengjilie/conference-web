@@ -153,6 +153,17 @@
                 "abstract": "",
                 "profile": ""
             }
+        },
+        {
+            "name": "Paul Varghese",
+            "institution": "Health Informatics at Verily",
+            "link": "https://www.linkedin.com/in/paulgeorgevarghese/",
+            "image": "./data/images/speakers/PaulVarghese.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
         }
     ]
 }
