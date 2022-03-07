@@ -18,7 +18,7 @@ function Agenda() {
         Agenda
       </p>
       <p className='agenda-date'>
-        (US Central Time, April 25-26)
+        (US Central Time, April 25)
       </p>
 
       <div className='agenda-wrapper'>

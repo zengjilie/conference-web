@@ -51,6 +51,11 @@
     color:white;
 }
 
+.agenda-wrapper{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .agenda-info{
     display: grid;
     grid-template-columns: 1fr 2fr;

@@ -1,56 +1,80 @@
 {
     "agenda": [
         {
-            "time": "09:00 am - 09:10 am",
-            "event": "Opening"
+            "time": "08:00 am - 08:30 am",
+            "event": "Keynote Fei Wang (Weill Cornell)"
         },
         {
-            "time": "09:10 am - 10:10 am ",
-            "event": "Invited Keynote Speak"
+            "time": "08:30 am - 09:00 am ",
+            "event": "Keynote Marzyeh Ghassemi(MIT)"
         },
         {
-            "time": "10:10 am - 10:30 am",
+            "time": "09:00 am - 09:30 am",
+            "event": "Keynote Himabindu Lakkaraju (Harvard)"
+        },
+        {
+            "time": "09:30 am - 10:00 am",
+            "event": "Keynote Eyal Klang (Sheba Medical Center)"
+        },
+        {
+            "time": "10:00 am - 10:10 am",
             "event": "Break"
         },
         {
-            "time": "10:30 am - 11:00 am",
-            "event": "Invited Talk"
+            "time": "10:10 am - 10:40 pm",
+            "event": "Keynote Andrew Beam (Harvard)"
         },
         {
-            "time": "11:00 am - 12:30 am",
-            "event": "Workshop paper presentation (about 6 presentations)"
+            "time": "10:40 pm - 11:10 pm",
+            "event": "Keynote Greg Durrett (UT Austin)"
         },
         {
-            "time": "12:30 am - 01:30 pm",
-            "event": "Lunch"
+            "time": "11:10 pm - 12:10 pm",
+            "event": "Panel: Theoretical foundation for explainable AI in health (Moderator: Ben Glicksberg, Panelists: Marzyeh Ghassemi, Fei Wang, Himabindu Lakkaraju, Eyal Klang, Andrew Beam, and Greg Durrett)"
+        },
+        {
+            "time": "12:10 pm - 01:00 pm",
+            "event": "lunch"
+        },
+        {
+            "time": "01:00 pm - 01:30 pm",
+            "event": "Keynote Pranav Rajpurkar (Harvard) + Adriel Saporta (Health AI at Apple)"
         },
         {
             "time": "01:30 pm - 02:00 pm",
-            "event": "Invited Talk"
+            "event": "Keynote Shamim Nemati (UC San Diego)"
         },
         {
-            "time": "02:00 pm - 03:00 pm",
-            "event": "Workshop paper presentation (about 4 presentations)"
+            "time": "02:00 pm - 02:30 pm",
+            "event": "Keynote Marinka Zitnik (Harvard)"
         },
         {
-            "time": "03:00 pm - 03:20 pm",
+            "time": "02:30 pm - 03:00 pm",
+            "event": "Keynote Benjamin Glicksberg (Mount Sinai)"
+        },
+        {
+            "time": "03:00 pm - 03:30 pm",
+            "event": "Keynote Faisal Mahmood (Harvard)"
+        },
+        {
+            "time": "03:30 pm - 03:40 pm",
             "event": "Break"
         },
         {
-            "time": "03:20 pm - 04:20 pm",
-            "event": "Round-Table Panel Discussion"
+            "time": "03:40 pm - 04:10 pm",
+            "event": "Keynote Paul Varghese (Verily)"
         },
         {
-            "time": "04:20 pm - 05:20 pm",
-            "event": "Round-Table Panel Discussion"
+            "time": "04:10 pm - 04:40 pm",
+            "event": "Keynote Prithwish Chakraborty (IBM Research)"
         },
         {
-            "time": "05:20 pm - 05:30 pm",
-            "event": "Concluding Remarks"
+            "time": "04:40 pm - 05:10 pm",
+            "event": "Keynote Mingchen Gao (U of Buffalo)"
         },
         {
-            "time": "05:30 pm - 06:30 pm",
-            "event": "Poster Session"
+            "time": "05:10 pm - 06:10 pm",
+            "event": "Panel: Applications of explainable AI in health (Moderator: Justin Rousseau, Panelists: Pranav Rajpurkar, Adriel Saporta, Shamim Nemati, Marinka Zitnik, Benjamin Glicksberg, Faisal Mahmood, Paul Varghese, Prithwish Chakraborty, Mingchen Gao)"
         }
     ]
 }
