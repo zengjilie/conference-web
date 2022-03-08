@@ -3,6 +3,8 @@
 ## Installation
 run `yarn install` to install all dependencies
 
+if you don't have yarn, run `sudo npm install --global yarn` to install yarn
+
 run `yarn start` to launch this project, `port listening to 3000`, be sure that port is avaliable
 
 run `yarn build` to build this project
