@@ -30,7 +30,7 @@
         },
         {
             "time": "11:10 pm - 12:10 pm",
-            "event": "Panel: Theoretical foundation for explainable AI in health (Moderator: Ben Glicksberg, Panelists: Marzyeh Ghassemi, Fei Wang, Himabindu Lakkaraju, Eyal Klang, Andrew Beam, and Greg Durrett)"
+            "event": "Panel: Theoretical foundation for explainable AI in health (Moderator: Ben Glicksberg, Panelists: Fei Wang, Himabindu Lakkaraju, Eyal Klang, Andrew Beam, and Greg Durrett)"
         },
         {
             "time": "12:10 pm - 01:00 pm",
@@ -46,7 +46,7 @@
         },
         {
             "time": "02:00 pm - 02:30 pm",
-            "event": "Keynote Marinka Zitnik (Harvard)"
+            "event": "Keynote Mingchen Gao (U of Buffalo)"
         },
         {
             "time": "02:30 pm - 03:00 pm",
@@ -70,11 +70,11 @@
         },
         {
             "time": "04:40 pm - 05:10 pm",
-            "event": "Keynote Mingchen Gao (U of Buffalo)"
+            "event": "Keynote Marinka Zitnik (Harvard)"
         },
         {
             "time": "05:10 pm - 06:10 pm",
-            "event": "Panel: Applications of explainable AI in health (Moderator: Justin Rousseau, Panelists: Pranav Rajpurkar, Adriel Saporta, Shamim Nemati, Marinka Zitnik, Benjamin Glicksberg, Faisal Mahmood, Paul Varghese, Prithwish Chakraborty, Mingchen Gao)"
+            "event": "Panel: Applications of explainable AI in health (Moderator: Justin Rousseau, Panelists:Pranav Rajpurkar, Adriel Saporta, Shamim Nemati,Marinka Zitnik, Benjamin Glicksberg, Faisal Mahmood, Paul Varghese, Prithwish Chakraborty, Mingchen Gao)"
         }
     ]
 }
