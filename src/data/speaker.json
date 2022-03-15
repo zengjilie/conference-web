@@ -164,6 +164,17 @@
                 "abstract": "",
                 "profile": ""
             }
+        },
+        {
+            "name": "Indranil Bardhan",
+            "institution": "UT Austin",
+            "link": "https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/indranil-bardhan/",
+            "image": "./data/images/speakers/IndranilBardhan.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
         }
     ]
 }
