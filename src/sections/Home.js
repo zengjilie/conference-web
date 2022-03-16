@@ -25,7 +25,7 @@ function Home() {
 
         <div className='home-bts'>
           <a
-            href="https://www2022.thewebconf.org/attendees/">
+            href="https://www2022.thewebconf.org/registration/">
             <button
               className="home-attend-bt">Attend
             </button>
