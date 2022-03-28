@@ -44,6 +44,7 @@ function Header() {
 
                 <input type="checkbox" id="menu" style={{ display: "none" }} />
 
+                <div className='background'></div>
                 <label htmlFor="menu" className='nav-menu-bt'>
                     <MenuIcon style={{ width: "30px", height: "30px", color: "white" }} />
                 </label>
