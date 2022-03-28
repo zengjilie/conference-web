@@ -19,7 +19,7 @@ function Home() {
         </a>
 
         <p className="home-text">Online, Hosted by Lyon, France</p>
-        <p className="home-text">25 April 2022</p>
+        <p className="home-text">25-26 April 2022</p>
         <p className="home-text">School of Information, The University of Texas at Austin</p>
         <p className='home-text'>You need to register the conference in order to attend this workshop, please click the Attend button which will lead you to the conference registration page</p>
 
