@@ -5,7 +5,6 @@ import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import CoffeeIcon from '@mui/icons-material/Coffee';
 import GroupsIcon from '@mui/icons-material/Groups';
 import Organizers from './Organizers';
-import Students from './Students';
 
 function ImportantDates() {
   return (
@@ -54,7 +53,6 @@ function ImportantDates() {
       </a>
 
       <Organizers />
-      <Students/>
     </div>
   )
 }

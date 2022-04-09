@@ -6,13 +6,12 @@ import Home from './sections/Home';
 import Agenda from './sections/Agenda';
 import ImportantDates from './sections/ImportantDates';
 import Introductions from './sections/Introductions';
-import Organizers from './sections/Organizers';
-import Speakers from './sections/Speakers';
 import Topics from './sections/Topics';
 import { animateScroll as scroll } from 'react-scroll';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import './App.css';
 import ReactGA from 'react-ga';
+
 function App() {
   //google analytics
   useEffect(()=>{
@@ -42,7 +41,6 @@ function App() {
         <Topics />
         <ImportantDates />
         {/* <Organizers /> added to impt */}
-        {/* <Students/> added to impt */}
 
         <div
           onClick={() => scroll.scrollToTop()}

@@ -4,7 +4,7 @@
     margin-left:auto;
     margin-right:auto;
     margin-top: 180px;
-    /* display: flex;
+    /* display: flex; 
     align-items: center;
     justify-content: center; */
 }
@@ -15,6 +15,15 @@
     text-align: center;
     color:white;
     position: relative;
+}
+
+.stu-org-title{
+    font-size: 2rem;
+    font-weight:700;
+    text-align: center;
+    color:white;
+    position: relative;
+    margin-top:180px;
 }
 
 .org-title::before {
@@ -29,6 +38,17 @@
     transform: translate(-15px);
 }
 
+.stu-org-title::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 30px;
+    background-color: rgb(97,149,255);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-15px);
+}
 .org-wrapper{
     margin-top: 100px;
     display:grid;

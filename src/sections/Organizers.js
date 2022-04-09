@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../stylesheets/organizers.css'
 import OrganizerCard from '../components/OrganizerCard';
 import organizerData from '../data/organizer.json';
+import studentData from '../data/student.json';
 
 function Organizers() {
 
@@ -18,6 +19,20 @@ function Organizers() {
             link={organizer.link}
             institution={organizer.institution}
             image={organizer.image}
+          />)}
+      </div>
+
+
+      <p className='stu-org-title'>Student Organizers</p>
+
+      <div className='org-wrapper' id='Organizers'>
+        {studentData?.students.map((student, index) =>
+          <OrganizerCard
+            key={index}
+            name={student.name}
+            link={student.link}
+            institution={student.institution}
+            image={student.image}
           />)}
       </div>
     </div>
