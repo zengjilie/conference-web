@@ -42,6 +42,7 @@ function App() {
         <Topics />
         <ImportantDates />
         {/* <Organizers /> added to impt */}
+        {/* <Students/> added to impt */}
 
         <div
           onClick={() => scroll.scrollToTop()}

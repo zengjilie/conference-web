@@ -1,0 +1,37 @@
+{
+    "students": [
+        {
+            "name": "Tianhao Li",
+            "institution": "UT Austin",
+            "link": "",
+            "image": "./data/images/students/TianhaoLi.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Jilie Zeng",
+            "institution": "UT Austin",
+            "link": "",
+            "image": "./data/images/students/JilieZeng.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "xxx",
+            "institution": "xxx",
+            "link": "",
+            "image": "./data/images/students/xxx.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        }
+    ]
+}

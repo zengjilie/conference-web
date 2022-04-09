@@ -4,13 +4,6 @@ import OrganizerCard from '../components/OrganizerCard';
 import organizerData from '../data/organizer.json';
 
 function Organizers() {
-  // const [organizerData, setOrganizerData] = useState(null);
-
-  // useEffect(() => {
-  //   fetch("./data/organizer.json")
-  //     .then(res => res.json())
-  //     .then(data => setOrganizerData(data))
-  // }, []);
 
   return (
     <div className='org-box'>
