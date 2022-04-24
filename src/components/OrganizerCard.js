@@ -18,6 +18,7 @@ function OrganizerCard({ name, institution, image, link }) {
         position: "relative"
       }}>
         <div className='org-overlay'></div>
+
         <a href={link}>
           <div
             className='org-detail'
@@ -25,16 +26,17 @@ function OrganizerCard({ name, institution, image, link }) {
             <ArrowForwardIcon />
           </div>
         </a>
+
       </div>
 
-      <div className='org-info'>
+      {/* <div className='org-info'> */}
         <p className='org-name'>
           {name}
         </p>
         <p className='org-insti'>
           {institution}
         </p>
-      </div>
+      {/* </div> */}
 
     </div>
   )

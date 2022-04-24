@@ -14,7 +14,7 @@
         {
             "name": "Jilie Zeng",
             "institution": "UT Austin",
-            "link": "https://www.zengjilie.com",
+            "link": "https://www.linkedin.com/in/zengjilie/",
             "image": "./data/images/students/JilieZeng.jpeg",
             "keynote": {
                 "title": "",
@@ -23,10 +23,21 @@
             }
         },
         {
-            "name": "IanAlrahwan",
+            "name": "Ian Alrahwan",
             "institution": "UT Austin",
             "link": "https://www.linkedin.com/in/ian-alrahwan/",
             "image": "./data/images/students/IanAlrahwan.jpeg",
+            "keynote": {
+                "title": "",
+                "abstract": "",
+                "profile": ""
+            }
+        },
+        {
+            "name": "Madalyn Rosenthal",
+            "institution": "UT Austin",
+            "link": "https://www.linkedin.com/in/madalynrosenthal/",
+            "image": "./data/images/students/MadalynRosenthal.jpeg",
             "keynote": {
                 "title": "",
                 "abstract": "",

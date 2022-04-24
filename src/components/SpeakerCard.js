@@ -31,14 +31,14 @@ function SpeakerCard({ name, institution, image, link, keynote }) {
                     <ArrowForwardIcon />
                 </div>
             </div>
-            <div className='speaker-info'>
+            {/* <div className='speaker-info'> */}
                 <p className='speaker-name'>
                     {name}
                 </p>
                 <p className='speaker-insti'>
                     {institution}
                 </p>
-            </div>
+            {/* </div> */}
 
             {/* <div className='overlay'></div> */}
 
